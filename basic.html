@@ -14,6 +14,9 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/simple-sidebar.css" rel="stylesheet">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
 
 </head>
 
@@ -22,24 +25,24 @@
   <div class="d-flex" id="wrapper">
 
     <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">HTML</div>
+    <div  class="bg-dark border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading bg-danger" style="color:white;">HTML</div>
       <div class="list-group list-group-flush">
         
-        <a href="basic.html" class="list-group-item list-group-item-action bg-light">Basic</a>
-        <a href="html/elements.html" class="list-group-item list-group-item-action bg-light">Elements</a>
-        <a href="html/attributes.html" class="list-group-item list-group-item-action bg-light">Attributes</a>
-        <a href="html/headings.html" class="list-group-item list-group-item-action bg-light">Headings</a>
-        <a href="html/styles.html" class="list-group-item list-group-item-action bg-light">Styles</a>
-        <a href="html/formatting.html" class="list-group-item list-group-item-action bg-light">Formatting</a>
-        <a href="html/link.html" class="list-group-item list-group-item-action bg-light">Link</a>
-        <a href="html/images.html" class="list-group-item list-group-item-action bg-light">Images</a>
-        <a href="html/division.html" class="list-group-item list-group-item-action bg-light">Division</a>
-        <a href="html/list.html" class="list-group-item list-group-item-action bg-light">List</a>
-        <a href="html/tables.html" class="list-group-item list-group-item-action bg-light">Tables</a>
-        <a href="html/classes.html" class="list-group-item list-group-item-action bg-light">Classes</a>
-        <a href="html/division.html" class="list-group-item list-group-item-action bg-light">Id</a>
-        <a href="html/responsive.html" class="list-group-item list-group-item-action bg-light">Responsive</a>
+        <a href="basic.html" style="color:white;" class="list-group-item list-group-item-action bg-success">Basic</a>
+        <a href="html/elements.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Elements</a>
+        <a href="html/attributes.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Attributes</a>
+        <a href="html/headings.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Headings</a>
+        <a href="html/styles.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Styles</a>
+        <a href="html/formatting.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Formatting</a>
+        <a href="html/link.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Link</a>
+        <a href="html/images.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Images</a>
+        <a href="html/division.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Division</a>
+        <a href="html/list.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">List</a>
+        <a href="html/tables.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Tables</a>
+        <a href="html/classes.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Classes</a>
+        <a href="html/division.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Id</a>
+        <a href="html/responsive.html" style="color:white;" class="list-group-item list-group-item-action bg-dark">Responsive</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -73,30 +76,30 @@
             <a class="nav-link" href="#">JQuery</a>
           </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <div class="searchbar">
+          <input class="search_input" type="text" name="" placeholder="Search...">
+          <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+        </div>
     </div>
   </nav>
 
       
-  <div>
+  <div align="center">
     <h2 align="center" id="basic">Html Basic</h2>
     <hr>
-     <h4>1.Basic Structure</h4> <img src="img/documents.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" role="button" target="null">Try it Yourself>></a>
+     <h4>Basic Structure</h4> <hr><img src="img/documents.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_document" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4>2.Paragraph</h4> <img src="img/paragraph.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs" role="button" target="null">Try it Yourself>></a>
+     <h4>Paragraph</h4> <hr><img src="img/paragraph.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4>3.Headings</h4> <img src="img/heading.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings" role="button" target="null">Try it Yourself>></a>
+     <h4>Headings</h4><hr> <img src="img/heading.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_headings" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4>4.Image</h4> <img src="img/image.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img" role="button" target="null">Try it Yourself>></a>
+     <h4>Image</h4> <hr><img src="img/image.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_img" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4>5.Links</h4> <img src="img/links.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link" role="button" target="null">Try it Yourself>></a>
+     <h4>Links</h4><hr> <img src="img/links.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_link" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4>6.Button</h4> <img src="img/button.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_button_basic" role="button" target="null">Try it Yourself>></a>
+     <h4>Button</h4><hr> <img src="img/button.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_button_basic" role="button" target="null">Try it Yourself>></a>
      <hr>
-     <h4 id="img">7.List</h4> <img src="img/list.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_intro" role="button" target="null">Try it Yourself>></a>
+     <h4>List</h4> <hr><img src="img/list.PNG" class="img-fluid" alt="Responsive image">  <a class="btn btn-success" href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_intro" role="button" target="null">Try it Yourself>></a>
      <hr>
     </div>
     <div align="center">
